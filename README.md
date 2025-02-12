@@ -12,10 +12,10 @@ This project is an ESP32-based Bluetooth client that receives data over Bluetoot
 ## Hardware Configuration
 
 - ESP32 WiFi Bluetooth development board with integrated 1.9-Inch LCD screen
-- Keyes RGB Led module (KY-016 or similar)
+- Keyes RGB LED module (KY-016 or similar)
 - Jumper wires (Breadboard optional)
 
-- RGB Led module is connected to the ESP32 as follows:
+- RGB LED module is connected to the ESP32 as follows:
   - Red pin to GPIO 14
   - Green pin to GPIO 12
   - Blue pin to GPIO 13
