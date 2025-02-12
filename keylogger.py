@@ -2,6 +2,7 @@ from pynput import keyboard
 import socket
 
 sock = None
+addr = "AC:15:18:D4:C3:36" # MAC address of the ESP32 !!Change to your ESP32's MAC address!!
 
 def connect_to_esp32(addr):
     port = 1
@@ -28,7 +29,6 @@ def on_press(key):
 
 def main():
     global sock
-    addr = "AC:15:18:D4:C3:36"
 
     start = input("Press enter to start the keylogger: ")
     while (start != ""):
