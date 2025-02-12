@@ -47,3 +47,4 @@ External libraries used:
 3. Open terminal to the project and using `pip` install required Python libraries using the command `pip install -r requirements.txt`
 4. Turn on your computer's bluetooth adapter and run `keylogger.py` using Python and your computer will connect to the ESP32 device
 5. Now your computer will send every key press to the ESP32 device which will display them on the lcd-screen
+6. To stop the `keylogger.py` script, simply press the esc-key
